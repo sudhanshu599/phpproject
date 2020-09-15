@@ -1,0 +1,189 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+footer{
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+footer .container-fluid p,a{
+   color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.container {
+  background-color: #000;
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 800px;
+	max-width: 100%;
+}
+
+#regis .container h1,p,tr,td{
+  color: white;
+}
+
+#regis .container-fluid {
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.container h1,label{
+  color: white;
+}
+
+.container small{
+  color: #f44336;
+  text-shadow: white;
+}
+
+
+.container-fluid th,tr,td{
+  color: #000;
+}
+ 
+.form-group label {
+	display: inline-block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.form-group input,select,option{
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-group input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-group.ma{
+  margin-right: 43px;
+}
+
+.cancelbtn {
+	background-color: red;
+	border: 2px solid red;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.checkk {
+	background-color:green;
+	border: 2px solid green;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0); /* Black w/ opacity */
+  padding-top: 60px;
+  padding-left: 380px;
+  padding-right: 380px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  min-height:auto;
+  width: 50%;
+}
+
+@media only screen and (min-width:300px){
+  .modal-content{
+    width: auto;
+  }
+  .modal{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+#event{
+  margin-left: 20px;
+  margin-bottom: 400px;
+  margin-right: 20px;
+}
+
+.carousel-caption h5,h4{
+  font-size: 30px;
+  font-size:2vw;
+  text-shadow: black;
+  color: white;
+}
